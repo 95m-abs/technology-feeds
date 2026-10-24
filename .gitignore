@@ -1,0 +1,14 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# virtual env
+.venv/
+venv/
+env/

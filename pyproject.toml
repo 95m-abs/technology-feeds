@@ -1,0 +1,18 @@
+[project]
+name = "technology-feeds"
+version = "0.1.0"
+description = "Project to run agents and get the realtime updates on technology"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "google-genai>=2.33.0",
+    "openai>=3.37.0",
+]
+
+[project.scripts]
+technology-feeds = "technology_feeds:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
